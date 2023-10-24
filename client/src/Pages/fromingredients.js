@@ -51,7 +51,7 @@ export const FromIngredients=()=>{
     return (
       <div className="cont">
   <h1 className="head" color="white">Enter Ingredients</h1>
-  <p>We will find some good recipes with the availabe ingredients!</p>
+  <p>We will find some good recipes with the  hahaavailabe ingredients!</p>
         <form onSubmit={handleSubmit}>
           <input type="text" value={query} onChange={handleChange} />
           <button type="submit">Search</button>

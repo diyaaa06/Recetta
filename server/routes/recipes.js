@@ -1,6 +1,5 @@
 import { RecipeModel } from "../models/recipes.js";
 import express from 'express';
-import mongoose from "mongoose";
 import { UserModel } from "../models/users.js";
 import { verifyToken } from "./users.js";
 
@@ -58,6 +57,4 @@ router.get("/savedRecipes/:userId",async(req,res)=>{
     res.json(error);
   }
 });
-
-
 export {router as recipesRouter};

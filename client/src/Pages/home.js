@@ -14,7 +14,9 @@ export const Home = () => {
           </button>
         </div>
         <div>
-          <button className="homebutton">By Image
+          <button className="homebutton" onClick={()=>{
+            navigate("/fromimage");
+          }}>By Image
           </button>
         </div>
         <div>
