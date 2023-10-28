@@ -9,6 +9,7 @@ import { ViewRecipes } from './Pages/view-recipes';
 import { Register } from './Pages/register';
 import { FromIngredients } from './Pages/fromingredients';
 import { FromName } from './Pages/fromname';
+import { FromImage } from './Pages/fromimage';
 function App() {
   return (
     <div className="App">
@@ -23,6 +24,7 @@ function App() {
           <Route path="/register" element={<Register></Register>}></Route>
           <Route path="/fromingredients" element={<FromIngredients></FromIngredients>}></Route>
           <Route path="/fromname" element={<FromName></FromName>}></Route>
+          <Route path="/fromimage" element={<FromImage></FromImage>}></Route>
         </Routes>
       </Router>
     </div>
